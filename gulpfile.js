@@ -77,7 +77,7 @@ gulp.task('clean', function() {
         return del([
                 './build/*',
                 './dist/*',
-                './dist.zip'
+                './output.zip'
         ]);
 });
 
