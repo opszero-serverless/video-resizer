@@ -1,0 +1,15 @@
+{
+    "name": "video-resizer",
+    "description": "An AWS Lambda function that resizes videos and outputs thumbnails when uploaded to an S3 Bucket.",
+    "tags": ["video", "s3"],
+    "license": "MIT",
+    "author": "",
+    "email": "",
+    "archive": "output.zip",
+    "buildCommand": "make build",
+    "readme": "README.md",
+    "branch": "master",
+    "aws": {
+        "policyFiles": []
+    }
+}
