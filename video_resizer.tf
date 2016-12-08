@@ -83,7 +83,7 @@ EOF
 
 resource "aws_lambda_function" "opszero_lambda" {
   filename = "output.zip"
-  function_name = "opszero_buy_button"
+  function_name = "opszero_video_resizer"
   role = "${aws_iam_role.iam_for_lambda.arn}"
   handler = "index.handler"
   source_code_hash = "${base64sha256(file("output.zip"))}"
